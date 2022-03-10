@@ -9,7 +9,8 @@ res.status(200).json({name:"fatimah", bio:"developer"
 })
 })
 server.get('/', (req,res)=>{
-    res.end('<h1>Hello World</h1>')
+    res.end('/api/users')
 })
+
 
 module.exports = server;
