@@ -6,7 +6,7 @@ server.use(express.json());
 
 
 server.get('/', (req,res)=>{
-    res.end({"name":"fatimah", "bio":"developer"})
+    res.end(`name: fatimah bio: developer`)
 });
 
 
