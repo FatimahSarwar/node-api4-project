@@ -6,9 +6,5 @@ const initializeUsers =  [
 
   let users = initializeUsers;
 
-  const find = () => {
-   
-    return Promise.resolve(users)
-  };
 
-module.exports = {find};
+module.exports = {users};
